@@ -1,0 +1,22 @@
+@use "../base/variable.scss" as *;
+.hero{
+    background:url(../image/Wave_White_bottom_right_shape_01.png)
+
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &>*{
+        flex: 1;
+    }
+}
+.hero-title{
+    color: $clr-primary ;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+.hero-sub{
+    font-size: 8rem;
+    font-weight: 600;
+}

@@ -1,0 +1,31 @@
+@use "../base/variable.scss";
+.header{
+    position: relative;
+    z-index: 1;
+    background: url(../../public/yellow_top_wave_01.png);
+
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header-nav{
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        font-weight: 600;
+        padding: 20px;
+        
+    }
+}
+.header-information span{
+    color: black;
+}
+.header-information button{
+    margin-right: 2rem;
+}

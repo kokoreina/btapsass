@@ -1,0 +1,34 @@
+@use "../base/variable.scss" as *;
+.footer{
+    background: url(../../public/footer_background.jpg);
+
+    padding-top: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container h3{
+    font-size: 30px;
+    color: #fff;
+}
+.footer-container li{
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+}
+.icon{
+    margin-right: 5px;
+}
+.footer-button{
+    background: $clr-primary;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: black;
+    font-weight: 500;
+    // box-shadow: 0 3px 6px #fff;
+    transition: .5s;
+
+}

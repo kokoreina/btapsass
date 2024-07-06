@@ -1,0 +1,13 @@
+@use "../base/variable.scss" as *;
+.btn{
+    background:$clr-primary;
+    padding: 13.5px 44px;
+    border: 2px solid $clr-primary;
+    border-radius:50px ;
+    letter-spacing: 0.03rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: $clr-primary;
+    box-shadow: 0 3px 6px #fff;
+    transition: .5s;
+}

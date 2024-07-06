@@ -1,0 +1,57 @@
+.product{
+    padding: 30px;
+    background: url(../../public/accent_bottom_wave_01.png);
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &>*{
+        flex: 1;
+    }
+}
+.product-img img{
+    width: 80%;
+}
+
+.card h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.coursenation {
+    padding-bottom: 20px;
+}
+.coursenation select{
+    width: 90%;  
+
+    
+}
+.send{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.btn span{
+    color: black ;
+}
+.border-input{
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+.form-logo  {
+    color: pink;
+}
+.text {
+    width: 90%;
+}

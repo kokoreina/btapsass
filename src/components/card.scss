@@ -1,0 +1,32 @@
+@use "../base/variable.scss" as *;
+.card-span{
+    color: $clr-primary;
+    margin-bottom: 0.7rem;
+}
+.card-body{
+    text-align: center;
+    padding: 20px;
+}
+.card-title{
+    color: #191919;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .card-text {
+    flex-grow: 1;
+    font-size: 0.9em;
+    color: #555;
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,10 @@
+.people{
+    padding: 30px;
+    background: url(../../public/Violet_top_left_wave.png);
+}
+.people-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
